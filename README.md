@@ -1,65 +1,46 @@
 # Java Farming Game
 
-A university programming project developed in Java. The game is a tile-based farming simulation where the player can move around the map, collect and use tools, prepare soil, plant and harvest crops, interact with the environment, and earn/spend in-game currency.
+This is a farming game I made for my first year Fundamentals of Programming coursework at university. It was made in Java and started from a framework provided for the coursework. I then worked through the tasks and added the different game features and logic.
 
-## Project overview
+## What the game does
 
-This project was completed as part of my first-year Fundamentals of Programming coursework. A starter framework was provided for the coursework, which I extended with the gameplay logic and features described below.
+The player can move around a farm, collect tools, till dirt, plant seeds and harvest crops. I also added other features as I worked through the project such as weather, pests, tool durability, an NPC, watering crops and a shop where the player can spend money.
 
-## Features I implemented
+## Main features
 
-- Grid-based player movement with boundary checking
-- Randomised dirt/farm area generation
-- Tool collection and tool-specific interactions
-- Tilling soil and sowing seeds
-- Crop growth and harvesting
-- In-game currency rewards for harvested crops
-- Trees and rocks that require the correct tools to clear
-- Tool durability
-- Pest spawning and movement towards crops
-- Weather states that affect crop behaviour
-- Watering-can interactions
-- A one-time NPC interaction
-- Signpost interaction
-- A simple shop using the existing currency and tool systems
+* Player movement around the map
+* Boundaries to stop the player leaving the game area
+* Farming areas and different tile types
+* Tools including a hoe, seed box, axe, pickaxe and watering can
+* Tilling dirt and planting seeds
+* Crops growing and being harvested
+* Money earned from harvesting crops
+* Trees and rocks that need the correct tools
+* Tools losing durability and eventually breaking
+* Pests that can move towards and destroy crops
+* Different weather that can affect crop growth
+* NPC interaction
+* Watering crops
+* A basic shop for buying tools
 
-## Technologies
+## What I used
 
-- Java
-- Java Swing / AWT
-- Object-oriented programming
-- 2D arrays and tile-based game logic
-- Event-driven keyboard input
-- Randomised game behaviour
+* Java
+* Object oriented programming
+* Arrays
+* Methods and conditions
+* Random values
+* Keyboard input
+* NetBeans
 
-## Project structure
+## How to run it
 
-```text
-java-farming-game/
-├── assets/          # Game sprites and tile images
-├── src/             # Java source code
-├── nbproject/       # NetBeans project configuration
-├── build.xml        # Ant build file
-└── README.md
-```
-
-## Running the project
-
-The project is configured as a NetBeans/Ant Java project.
-
-### NetBeans
-
-1. Clone or download the repository.
-2. Open the project folder in Apache NetBeans.
-3. Ensure a compatible JDK is selected for the project.
-4. Run `uk.ac.bradford.farmgame.Launcher`.
-
-The game loads its image assets from the `assets` directory, so run it with the repository root as the working directory.
+The project was made using NetBeans. Download the project, open it in NetBeans with Java installed and run the Launcher class.
 
 ## What I learned
 
-This project helped me practise building a larger program from multiple interacting classes rather than a single script. I worked with object-oriented programming, state changes, movement and boundary logic, arrays, random events, user input, game mechanics, and connecting new features to an existing codebase.
+This was one of my bigger programming projects from first year and helped me get more comfortable with Java. I got more practice using methods, conditions, arrays and different classes together instead of making everything in one small program. I also learned how adding one feature can affect other parts of the game and how to work through problems when something did not work properly.
 
-## Academic note
+## Note
 
-This repository is a portfolio copy of completed university coursework. The original coursework included a university-provided starter framework, which remains attributed in the source files. The gameplay extensions and coursework tasks I completed are presented here to demonstrate my programming development.
+Some starter code was provided as part of the university coursework. I built on that framework while completing the different programming tasks and game features.
